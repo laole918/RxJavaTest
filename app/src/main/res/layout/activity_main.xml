@@ -21,4 +21,11 @@
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
         android:text="New Button" />
+
+    <com.laole918.rxjavatest.HeiHeiView_
+        android:id="@+id/heihei"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </com.laole918.rxjavatest.HeiHeiView_>
 </RelativeLayout>

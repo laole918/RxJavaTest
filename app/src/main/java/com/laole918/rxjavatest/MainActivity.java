@@ -17,7 +17,8 @@ public class MainActivity extends AppCompatActivity {
 
     @ViewById
     Button button;
-
+    @ViewById
+    HeiHeiView heihei;
     @Bean
     MainBean main;
 
@@ -37,5 +38,6 @@ public class MainActivity extends AppCompatActivity {
                     System.out.println("完成");
                 });
 //        Observable.
+        heihei.bindData();
     }
 }
